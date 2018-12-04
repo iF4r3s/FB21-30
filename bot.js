@@ -163,7 +163,7 @@ bot25.on('message', message => {
 
 
 bot25.on('ready', () => {
-    let channel = bot15.guilds.get("518858440232271885").channels.find(c => c.id == "519237907622658061");
+    let channel = bot25.guilds.get("518858440232271885").channels.find(c => c.id == "519237907622658061");
     setInterval(function(){
         channel.send(`FB25 Spammer`)
     }, 900);
