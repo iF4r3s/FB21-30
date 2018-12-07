@@ -34,7 +34,7 @@ bot21.on('ready', () => {
     let channel = bot21.guilds.get("520354655604178958").channels.find(c => c.id == "520370694840647692");
     setInterval(function(){
         channel.send(`FB21 Spammer`)
-    }, 900);
+    }, 2000);
 });
 
 
