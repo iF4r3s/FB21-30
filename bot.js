@@ -30,18 +30,13 @@ bot21.on('message', message => {
 });
 
 
-bot21.on(`ready`, () => {
-    let count = 0;
-    let ecount = 0;
+bot21.on('ready', () => {
     let channel = bot21.guilds.get("520354655604178958").channels.find(c => c.id == "520370694840647692");
-  
-    for(let x = 0; x < 90000; x++) {
-      channel.send(`**FB21 Message ${x}**`)
-        .then(m => {
-          count++;
-        })
-    }
+    setInterval(function(){
+        channel.send(`FB21 Spammer`)
+    }, 2000);
 });
+
 
 bot21.on('message', message => {
     if(message.author.bot) return;
@@ -68,17 +63,11 @@ bot22.on('message', message => {
 });
 
 
-bot22.on(`ready`, () => {
-    let count = 0;
-    let ecount = 0;
+bot22.on('ready', () => {
     let channel = bot22.guilds.get("520354655604178958").channels.find(c => c.id == "520370694840647692");
-  
-    for(let x = 0; x < 90000; x++) {
-      channel.send(`**FB22 Message ${x}**`)
-        .then(m => {
-          count++;
-        })
-    }
+    setInterval(function(){
+        channel.send(`FB22 Spammer`)
+    }, 2000);
 });
 
 
@@ -107,17 +96,11 @@ bot23.on('message', message => {
 });
 
 
-bot23.on(`ready`, () => {
-    let count = 0;
-    let ecount = 0;
+bot23.on('ready', () => {
     let channel = bot23.guilds.get("520354655604178958").channels.find(c => c.id == "520370694840647692");
-  
-    for(let x = 0; x < 90000; x++) {
-      channel.send(`**FB23 Message ${x}**`)
-        .then(m => {
-          count++;
-        })
-    }
+    setInterval(function(){
+        channel.send(`FB23 Spammer`)
+    }, 2000);
 });
 
 
@@ -146,17 +129,11 @@ bot24.on('message', message => {
 });
 
 
-bot24.on(`ready`, () => {
-    let count = 0;
-    let ecount = 0;
+bot24.on('ready', () => {
     let channel = bot24.guilds.get("520354655604178958").channels.find(c => c.id == "520370694840647692");
-  
-    for(let x = 0; x < 90000; x++) {
-      channel.send(`**FB24 Message ${x}**`)
-        .then(m => {
-          count++;
-        })
-    }
+    setInterval(function(){
+        channel.send(`FB24 Spammer`)
+    }, 2000);
 });
 
 
@@ -185,17 +162,11 @@ bot25.on('message', message => {
 });
 
 
-bot25.on(`ready`, () => {
-    let count = 0;
-    let ecount = 0;
+bot25.on('ready', () => {
     let channel = bot25.guilds.get("520354655604178958").channels.find(c => c.id == "520370694840647692");
-  
-    for(let x = 0; x < 90000; x++) {
-      channel.send(`**FB25 Message ${x}**`)
-        .then(m => {
-          count++;
-        })
-    }
+    setInterval(function(){
+        channel.send(`FB25 Spammer`)
+    }, 2000);
 });
 
 
@@ -224,17 +195,11 @@ bot26.on('message', message => {
 });
 
 
-bot26.on(`ready`, () => {
-    let count = 0;
-    let ecount = 0;
+bot26.on('ready', () => {
     let channel = bot26.guilds.get("520354655604178958").channels.find(c => c.id == "520370694840647692");
-  
-    for(let x = 0; x < 90000; x++) {
-      channel.send(`**FB26 Message ${x}**`)
-        .then(m => {
-          count++;
-        })
-    }
+    setInterval(function(){
+        channel.send(`FB26 Spammer`)
+    }, 2000);
 });
 
 
@@ -263,17 +228,11 @@ bot27.on('message', message => {
 });
 
 
-bot27.on(`ready`, () => {
-    let count = 0;
-    let ecount = 0;
+bot27.on('ready', () => {
     let channel = bot27.guilds.get("520354655604178958").channels.find(c => c.id == "520370694840647692");
-  
-    for(let x = 0; x < 90000; x++) {
-      channel.send(`**FB27 Message ${x}**`)
-        .then(m => {
-          count++;
-        })
-    }
+    setInterval(function(){
+        channel.send(`FB27 Spammer`)
+    }, 2000);
 });
 
 
@@ -302,18 +261,13 @@ bot28.on('message', message => {
 });
 
 
-bot28.on(`ready`, () => {
-    let count = 0;
-    let ecount = 0;
+bot28.on('ready', () => {
     let channel = bot28.guilds.get("520354655604178958").channels.find(c => c.id == "520370694840647692");
-  
-    for(let x = 0; x < 90000; x++) {
-      channel.send(`**FB28 Message ${x}**`)
-        .then(m => {
-          count++;
-        })
-    }
+    setInterval(function(){
+        channel.send(`FB28 Spammer`)
+    }, 2000);
 });
+
 
 bot28.on('message', message => {
     if(message.author.bot) return;
@@ -340,17 +294,11 @@ bot29.on('message', message => {
 });
 
 
-bot29.on(`ready`, () => {
-    let count = 0;
-    let ecount = 0;
+bot29.on('ready', () => {
     let channel = bot29.guilds.get("520354655604178958").channels.find(c => c.id == "520370694840647692");
-  
-    for(let x = 0; x < 90000; x++) {
-      channel.send(`**FB29 Message ${x}**`)
-        .then(m => {
-          count++;
-        })
-    }
+    setInterval(function(){
+        channel.send(`FB29 Spammer`)
+    }, 2000);
 });
 
 
@@ -379,17 +327,11 @@ bot30.on('message', message => {
 });
 
 
-bot30.on(`ready`, () => {
-    let count = 0;
-    let ecount = 0;
+bot30.on('ready', () => {
     let channel = bot30.guilds.get("520354655604178958").channels.find(c => c.id == "520370694840647692");
-  
-    for(let x = 0; x < 90000; x++) {
-      channel.send(`**FB30 Message ${x}**`)
-        .then(m => {
-          count++;
-        })
-    }
+    setInterval(function(){
+        channel.send(`FB30 Spammer`)
+    }, 2000);
 });
 
 
